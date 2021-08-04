@@ -11,5 +11,6 @@ ds <- function(x){
   par(mfrow=c(1,1))
   #Numerical Summary
   data.frame(min=min(x),
-             mean=mean(x))
+             mean=mean(x),
+            median=median(x))
 }
